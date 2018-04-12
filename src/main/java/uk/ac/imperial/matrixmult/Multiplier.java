@@ -1,5 +1,9 @@
 package uk.ac.imperial.matrixmult;
 
+/**
+ * A single thread multiplier job
+ */
+
 public class Multiplier implements Runnable {
 
   private Matrix a;
