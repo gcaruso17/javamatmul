@@ -21,8 +21,9 @@ public class Multiplier implements Runnable {
   @Override
   public void run() {
     for (int k = 0; k < a.getNumColumns(); k++) {
+      double aik = a.get(i, k); //Stores the current value of a[i][k] to improve temporal locality
       for (int j = 0; j < b.getNumColumns(); j++) {
-        c.set(i, j, c.get(i,j) + (a.get(i, k) * b.get(k, j)));
+        c.set(i, j, c.get(i,j) + (aik * b.get(k, j)));
       }
     }
   }
