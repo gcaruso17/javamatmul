@@ -2,7 +2,7 @@
 ## IPL Programming Competition
 This is a fast concurrent matrix multiplication algorithm implemented for the *IPL Programming Competition* at Imperial College London.
 ## Performance
-Here's a comparison of each different approach adopted during the design of the algorithm*:
+Here's a comparison of the performance of each different approach adopted during the design of the algorithm*:
 - Simple Multiplication: [1.511, 1.658] (s/op)
 - Concurrent Rows: [0.393, 0.407] (s/op)
 - Hybrid Algorithm: [0.393, 0.405] (s/op)
