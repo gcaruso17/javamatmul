@@ -13,9 +13,7 @@ Here's a comparison of the performance of each different approach adopted during
 The test were run on a machine equipped with a Intel i7-6700 (4 physical cores, 8 virtual cores) and 16GB of RAM
 
 ## Testing
-A benchmark is provided in the [target](target) directory for testing purposes.
-
-To run the benchmark you will need maven.
+A benchmark is provided in the [target](target) directory for testing purposes (you will need maven).
 
 Type the following commands:
 
